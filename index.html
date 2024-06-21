@@ -12,67 +12,79 @@
 </head>
 
 <body class="bg-black text-white">
-    <div class="flex container mx-auto w-[90vw]">
-        <div class="first  w-[43%]">
-            <div class="sidebar flex justify-center sticky top-0">
+    <div class="flex container mx-auto xl:w-[90vw]">
+        <div class="first   xl:w-[43%]">
+            <div class="sidebar flex justify-end xl:justify-center sticky top-0 ">
 
-                <ul class="flex flex-col text-[20px] font-semibold space-y-2 w-[90%] mt-5 px-5">
+                <ul class="flex flex-col text-[20px] font-semibold space-y-2 xl:w-[90%] mt-5 xl:px-5 gap-1">
                     <li>
                         <div class="logo">
                             <img class="mx-5 mt-2 mb-5" src="logo.svg" alt="">
                         </div>
                     </li>
                     <li
-                        class="flex gap-2 justify-start w-fit hover:cursor-pointer hover:rounded-full hover:bg-gray-900 hover:bg-opacity-50 px-4 py-1  ">
-                        <span class=" material-symbols-outlined text-[28px] ">home</span>Home
+                        class="flex gap-2 justify-start w-fit hover:cursor-pointer hover:rounded-full hover:bg-gray-900 hover:bg-opacity-50 px-4  py-1  ">
+                        <span class=" material-symbols-outlined text-[34px] xl:text-[28px] ">home</span> <span class="hidden xl:block  ">Home</span>
                     </li>
                     <li class=" flex gap-2 justify-start w-fit hover:cursor-pointer hover:rounded-full
                         hover:bg-gray-900 hover:bg-opacity-50 px-4 py-1 "> <span
-                            class=" material-symbols-outlined text-[28px]">search</span>Explore</li>
+                            class=" material-symbols-outlined text-[34px] xl:text-[28px]">search</span> <span class="hidden xl:block" >Explore</span></li>
                     <li
                         class="flex gap-2 justify-start w-fit hover:cursor-pointer hover:rounded-full hover:bg-gray-900 hover:bg-opacity-50 px-4 py-1 ">
-                        <span class=" material-symbols-outlined text-[28px]">Notifications</span>Notification
+                        <span class=" material-symbols-outlined text-[34px] xl:text-[28px]">Notifications</span>
+                        <span class="hidden xl:block" >Notification</span>
                     </li>
                     <li
                         class="flex gap-2 justify-start w-fit hover:cursor-pointer hover:rounded-full hover:bg-gray-900 hover:bg-opacity-50 px-4 py-1 ">
-                        <span class=" material-symbols-outlined text-[28px]">mail</span>message
+                        <span class=" material-symbols-outlined text-[34px] xl:text-[28px]">mail</span> <span class="hidden xl:block" >message</span>
                     </li>
                     <li
                         class="flex gap-2 justify-start w-fit hover:cursor-pointer hover:rounded-full hover:bg-gray-900 hover:bg-opacity-50 px-4 py-1 ">
                         <span class="
-                        material-symbols-outlined text-[28px]">message</span>Grok
+                        material-symbols-outlined text-[34px] xl:text-[28px]">message</span> <span class="hidden xl:block" >Grok</span>
                     </li>
                     <li
                         class="flex gap-2 justify-start w-fit hover:cursor-pointer hover:rounded-full hover:bg-gray-900 hover:bg-opacity-50 px-4 py-1 ">
-                        <span class=" material-symbols-outlined text-[28px]">list_alt</span>Lists
+                        <span class=" material-symbols-outlined text-[34px] xl:text-[28px]">list_alt</span> <span class="hidden xl:block" >Lists</span>
                     </li>
                     <li
                         class="flex gap-2 justify-start w-fit hover:cursor-pointer hover:rounded-full hover:bg-gray-900 hover:bg-opacity-50 px-4 py-1 ">
-                        <span class=" material-symbols-outlined text-[28px]">bookmarks</span>Bookmarks
+                        <span class=" material-symbols-outlined text-[34px] xl:text-[28px]">bookmarks</span> <span class="hidden xl:block" >Bookmarks</span>
                     </li>
                     <li
                         class="flex gap-2 justify-start w-fit hover:cursor-pointer hover:rounded-full hover:bg-gray-900 hover:bg-opacity-50 px-4 py-1 ">
-                        <span class=" material-symbols-outlined text-[28px]">group</span>Communities
+                        <span class=" material-symbols-outlined text-[34px] xl:text-[28px]">group</span> <span class="hidden xl:block" >Communities</span>
                     </li>
 
                     <li
                         class="flex gap-2 justify-start w-fit hover:cursor-pointer hover:rounded-full hover:bg-gray-900 hover:bg-opacity-50 px-4 py-1 ">
-                        <span class=" material-symbols-outlined text-[28px]">account_circle</span>Profile
+                        <span class=" material-symbols-outlined text-[34px] xl:text-[28px]">account_circle</span> <span class="hidden xl:block" >Profile</span>
                     </li>
                     <li
                         class="flex gap-2 justify-start w-fit hover:cursor-pointer hover:rounded-full hover:bg-gray-900 hover:bg-opacity-50 px-4 py-1 ">
-                        <span class=" material-symbols-outlined text-[28px]">more_horiz</span>More
+                        <span class=" material-symbols-outlined text-[34px] xl:text-[28px]">more_horiz</span> <span class="hidden xl:block" >More</span>
                     </li>
 
-                    <button
-                        class="bg-blue-700 relative top-5  hover:bg-blue-500 rounded-full text-xl font-bold w-[99%]   py-2 pb-3 my-7 text-white">post</button>
-                </ul>
+                   <li > <button
+                        class="bg-blue-700 relative left-3 lg:bottom-6 lg:left-2  hover:bg-blue-500 rounded-full text-xs xl:text-xl font-normal xl:font-bold w-[65%] xl:w-[99%] py-2 pb-3 my-7 text-white mb-0">post</button>
+                </li>
+                <li>
+                    <div class="flex w-fit relative bottom-4">
+                        <img class="w-8 h-8 rounded-full ml-3 mt-0" src="my photo.jpg" alt="">
+                        <div class="text-sm ml-2 hidden xl:block">
+                            <div>Vikas jain</div>
+                            <div>@vikasjain323</div>
+                    </div>
+                    
+                </div></li>
+                    </ul>
+                
             </div>
         </div>
         <div class="second  w-[100%] border-[1px] border-x-gray-700 border-y-black">
-            <div class="nav ">
+            <div class="nav sticky top-0 z-50 bg-black backdrop-blur-3xl opacity-70">
                 <ul
-                    class="capitalize flex gap-12  py-5 px-9 m-0 border border-x-black border-y-gray-700 font-medium text-gray-600 text-[15px] ">
+                    class="capitalize flex justify-between py-4 px-9 m-0 border border-x-black border-y-gray-700 font-medium text-gray-600 sm:text-[15px] text-[9px]">
                     <li class="hover:text-gray-50 text-gray-50 cursor-pointer">for you</li>
                     <li class="hover:text-gray-50 cursor-pointer">following</li>
                     <li class="hover:text-gray-50 cursor-pointer">generative AI•ChatGPT</li>
@@ -81,7 +93,7 @@
             </div>
             <div class="post  border border-gray-700 border-x-black border-t-black relative min-h-40 ">
                 <div class="profile flex gap-4 mt-4 ml-8"> <img class="w-12 rounded-full " src="my photo.jpg" alt="">
-                    <div class="text-xl font-medium text-gray-500 mt-2"><input
+                    <div class="sm:text-xl text-sm font-medium text-gray-500 mt-2"><input
                             class="bg-transparent outline-none text-white" type="text"
                             placeholder="What is happening?!"></div>
                 </div>
@@ -91,19 +103,19 @@
 
 
             <div class="uploadedpost ">
-                <div class="postlist flex flex-col"> <!--maintains list of post : madatory-->
+                <div class="postlist flex flex-col gap-0"> <!--maintains list of post : madatory-->
 
                     <div id="post-1"
-                        class="flex flex-col gap-1 mb-6 border-[1px] border-gray-700 border-x-black border-t-black">
+                        class="flex flex-col gap-1 border-[1px] border-gray-700 border-x-black border-t-black">
                         <!--Identitiy of post : madatory-->
                         <div class="assemble flex"> <img class="w-12 h-12 rounded-full mt-4 ml-8" src="my photo.jpg"
                                 alt="">
                             <div class="flex flex-col">
-                                <div class="username mt-4 flex gap-1 text-base">
-                                    <h1 class="font-bold"></h1> Tulsi Soni </h1>
+                                <div class="username mt-4 flex gap-1 sm:text-base text-sm">
+                                    <h1 class="font-semibold"> Tulsi Soni </h1>
                                     <h6 class="text-gray-500">@shedntcare_ · 2h</h6>
                                 </div>
-                                <div class="caption mb-4 ml-1  leading-8">17 Netflix and YouTube documentaries you must
+                                <div class="caption mb-4 ml-1  sm:leading-8 sm:text-base text-sm">17 Netflix and YouTube documentaries you must
                                     watch
                                     this
                                     weekend!<br>They will blow your mind 😲</div>
@@ -176,11 +188,11 @@
                         <div class="assemble flex"> <img class="w-12 h-12 rounded-full mt-4 ml-8" src="my photo.jpg"
                                 alt="">
                             <div class="flex flex-col">
-                                <div class="username mt-4 flex gap-1 text-base">
-                                    <h1 class="font-extrabold"></h1> Angry Tom </h1>
+                                <div class="username mt-4 flex gap-1 sm:text-base text-sm">
+                                    <h1 class="font-semibold ml-1"> Angry Tom </h1>
                                     <h6 class="text-gray-500">@shedntcare_ · 2h</h6>
                                 </div>
-                                <div class="caption mb-4 ml-1  leading-8">I'm obsessed with collecting websites that
+                                <div class="caption mb-4 ml-1  sm:leading-8">I'm obsessed with collecting websites that
                                     feel illegal to know.
 
                                     The 10 best websites I've collected:</div>
@@ -252,13 +264,14 @@
 
 
         </div>
-        <div class="third w-[58vw] h-max"> <!-- sticky top-0 -->
-
+        <div class="third lg:w-[58vw] h-fit w-0 hidden lg:block sticky top-0"> <!-- sticky top-0 -->
+<div class="itemsreq">
             <div tabindex="0"
                 class="search  sticky top-1 mx-auto w-[80%] px-8 py-2.5 rounded-full bg-[#202327] font-mono text-base mt-3 hover:bg-[#1d2023c6] ml-7 flex gap-2 pl-6  focus-within:outline  focus-within:outline-blue-600 focus-within:outline-2 ">
                 <img class="ml-0" src="search.svg" alt="">
                 <input type="text" id="search" placeholder="Search" class="bg-transparent border-none outline-none">
             </div>
+            
             <div class=" subscribe flex flex-col justify-center mx-auto mt-5 ml-9 border p-3 px-5 border-gray-700
                     rounded-2xl w-[80%]">
                 <h1 class="text-xl font-bold mb-2 pt-0">Subscribe to Premium</h1>
@@ -291,7 +304,7 @@
                         <h5 class="text-xs font-normal text-gray-600 mb-0">Politics · Trending</h5>
                         <h2 class="text-l font-bold mb-0">#ArvindKejriwal</h2>
                         <h5 class="text-xs font-normal text-gray-600">Trending with <span class="text-blue-600 text-sm">
-                                अरविंद केजरीवाल, हेमंत सोरेन</span></h5>
+                                अरविंद केजरीवाल, हेमंत सोरेन</span> <span class="hidden xl:block" ></h5>
                     </div>
                     <div class="item mb-5 cursor-pointer">
                         <h5 class="text-xs font-normal text-gray-600 mb-0">Trending in India</h5>
@@ -323,7 +336,7 @@
 
                     <div class="end text-blue-600 text-base font-bold cursor-pointer">Show more</div>
                 </div>
-            </div>
+            </div></div></div>
         </div>
 </body>
 
